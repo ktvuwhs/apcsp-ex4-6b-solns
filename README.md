@@ -1,4 +1,5 @@
 # apcsp-ex4-6b-solns
+See solutions in appropriate folders in this repository.
 
 ## Instructions
 1. Write a procedure, sayGreeting, that takes a String parameter that represents the user's name, and displays/says/prints some sort of greeting using that name.  This procedure does not return anything (void return type).

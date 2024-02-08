@@ -32,7 +32,7 @@ $$x = \frac{-b\pm\sqrt{b^2 - 4ac}}{2a}$$
 **To use the square root:**
 * For Scratch and Snap!, there should be a green Operation block that has the square root
 * For C++, you need `#include<cmath>` and use `std::sqrt()`
-* For Python, at the top of your program, you need to include the line import math and use `math.sqrt()`
+* For Python, at the top of your program, you need to include the line `import math` and use `math.sqrt()`
 * For Java, you use `Math.sqrt()`
 
 6. Write a procedure named isPrime that takes in a positive number and returns the boolean value true if the input number is prime, and false otherwise.  Use the fact that `return` "kills" your code and that if you find out that your number is divisible by another number you can return False, since you know it cannot be prime.

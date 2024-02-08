@@ -35,8 +35,8 @@ $$x = \frac{-b\pm\sqrt{b^2 - 4ac}}{2a}$$
 * For Python, at the top of your program, you need to include the line `import math` and use `math.sqrt()`
 * For Java, you use `Math.sqrt()`
 
-6. Write a procedure named isPrime that takes in a positive number and returns the boolean value true if the input number is prime, and false otherwise.  Use the fact that `return` "kills" your code and that if you find out that your number is divisible by another number you can return False, since you know it cannot be prime.
-7. Write a procedure named isCoprime that takes in two, unique positive numbers, and returns the boolean value true if the two numbers are coprime, and false otherwise.  You may assume that the two input numbers are not equal to each other.
+6. Write a procedure named `isPrime` that takes in a positive number and returns the boolean value true if the input number is prime, and false otherwise.  A number is **prime** if it is not divisible by any number less than it (except 1).  Use the fact that `return` "kills" your code and that if you find out that your number is divisible by another number you can return False, since you know it cannot be prime.
+7. Write a procedure named `isCoprime` that takes in two, unique positive numbers, and returns the boolean value true if the two numbers are coprime, and false otherwise.  Two numbers are **coprime** if they do not share any factors (as in, there is no number that divides both of them).  For example, 25 and 36 are coprime, since they share no factors.  The numbers 12 and 18 are NOT coprime, since 2 divides both of them.  You may assume that the two input numbers are not equal to each other.
 8. Write a procedure named factors that takes in a positive number and returns a list of all the positive factors of the input number.
 
  

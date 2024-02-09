@@ -45,7 +45,7 @@ public class Main
 	
 	/** Note: Making parameters final are optional
 	* If you know your variables won't be changing, then you can make them final
-	* It makes your programs more secure and prevents unintended out
+	* It makes your programs more secure and prevents unintended behavior
 	*/
 	public static void sayGreeting(final String name)
 	{

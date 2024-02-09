@@ -132,7 +132,7 @@ std::vector<double> quadraticFormula(const double a, const double b, const doubl
 	return ans;
 }
 
- bool isPrime(const int p)
+bool isPrime(const int p)
 {
 	if (p == 1)
 	{
@@ -155,7 +155,7 @@ std::vector<double> quadraticFormula(const double a, const double b, const doubl
 	return true;
 }
 
- bool isCoprime(const int p, const int q)
+bool isCoprime(const int p, const int q)
 {
 	// We assume that a>0 and b>0 and that a != b
 	for (int curr_num = 2; curr_num <= p; curr_num++)
@@ -168,7 +168,7 @@ std::vector<double> quadraticFormula(const double a, const double b, const doubl
 	return true;
 }
 
- std::vector<int> factors(const int n)
+std::vector<int> factors(const int n)
 {
 	std::vector<int> ans = {};
 	for (int i = 1; i <= n; i++)
